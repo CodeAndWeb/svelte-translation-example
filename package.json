@@ -1,5 +1,5 @@
 {
-	"name": "svelte-i18n-example",
+	"name": "svelte-translation-example",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -7,7 +7,8 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"extract": "svelte-i18n extract \"src/**/*.svelte\" src/lang/en.json"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^2.0.0",
@@ -18,5 +19,8 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-i18n": "^3.7.4"
+	}
 }

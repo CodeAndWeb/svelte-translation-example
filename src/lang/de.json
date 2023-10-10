@@ -1,0 +1,26 @@
+{
+	"locale-switch": {
+		"heading": "Sprachumschalter",
+		"label": "Wählen Sie Ihre Sprache",
+		"lang": {
+			"de": "Deutsch",
+			"en": "Englisch",
+			"fr": "Französisch"
+		}
+	},
+	"main": {
+		"heading": "Svelte i18n Beispiel"
+	},
+	"markup": {
+		"content": "Sie können <strong>HTML-Markup</strong> mit <code>@html</code> verwenden.<br/>Parameter werden nicht maskiert: {warning}<br/>{escaped}",
+		"heading": "HTML-Markup in Übersetzungen"
+	},
+	"pluralization": {
+		"content": "n={n}:\nSie haben {n, plural, \n    =0 {keine Äpfel}\n    one {einen Apfel}\n    other {# Äpfel}\n}.",
+		"heading": "Pluralisierung mit ICU-Syntax"
+	},
+	"simple-parameters": {
+		"content": "Mein Name ist {name}. Die Zahl pi hat den Wert {pi}. Das aktuelle Datum: {date}.",
+		"heading": "Parameter und Formatierung"
+	}
+}

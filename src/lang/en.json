@@ -1,0 +1,26 @@
+{
+	"locale-switch": {
+		"heading": "Locale switch",
+		"label": "Select your language",
+		"lang": {
+			"de": "German",
+			"en": "English",
+			"fr": "French"
+		}
+	},
+	"main": {
+		"heading": "Svelte i18n Example"
+	},
+	"markup": {
+		"content": "You can use <strong>HTML markup</strong> using <code>@html</code>.<br/>Parameters are not escaped: {warning}<br/>{escaped}",
+		"heading": "HTML markup in translations"
+	},
+	"pluralization": {
+		"content": "n={n}: \nYou have {n, plural, \n    =0 {no apples}\n    one {one apple}\n    other {# apples}\n}.",
+		"heading": "Pluralization with ICU syntax"
+	},
+	"simple-parameters": {
+		"content": "My name is {name}. The number pi has the value {pi}. The current date: {date}. ",
+		"heading": "Parameters and formatting"
+	}
+}

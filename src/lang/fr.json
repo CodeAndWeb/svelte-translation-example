@@ -1,0 +1,26 @@
+{
+	"locale-switch": {
+		"heading": "Changement de localité",
+		"label": "Sélectionnez votre langue",
+		"lang": {
+			"de": "Allemand",
+			"en": "Anglais",
+			"fr": "Français"
+		}
+	},
+	"main": {
+		"heading": "Exemple de Svelte i18n"
+	},
+	"markup": {
+		"content": "Vous pouvez utiliser le <strong>balisage HTML</strong> en utilisant <code>@html</code>.<br/>Les paramètres ne sont pas échappés : {warning}<br/>{escaped}",
+		"heading": "Balisage HTML dans les traductions"
+	},
+	"pluralization": {
+		"content": "n={n} :\nVous avez {n, plural, \n    =0 {aucune pomme}\n    one {une pomme}\n    other {# pommes}\n}.",
+		"heading": "Pluralisation avec la syntaxe ICU"
+	},
+	"simple-parameters": {
+		"content": "Je m'appelle {name}. Le nombre pi a la valeur {pi}. La date actuelle :  {date}.",
+		"heading": "Paramètres et formatage"
+	}
+}
